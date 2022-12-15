@@ -27,7 +27,7 @@ jobs:
         run: DATABASE_URL=sqlite:///test.db pytest
 
   deploy:
-    name: Depoly a
+    name: Depoly 
     runs-on: ubuntu-latest
     needs: test_branch
     steps:
