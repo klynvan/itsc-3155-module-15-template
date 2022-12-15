@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Instal dependencies
+      - name: Install dependencies
         uses: pip install -r requirements.txt
 
       - name: Create DB
